@@ -77,13 +77,13 @@ int main(){
 
     printf("\n");
 
-    if (len < 8){
+    if (len <= 8){
         printf("The decimal number: %d to binary is %s \n", num, arr);
         printf("The binary number: %s has %d bits \n", arr, len);
         printf("decimal number: %d has %d bits, so it fits in data type CHAR \n", num, len);
     }
 
-    else if (len > 8){
+    else if (len >= 8){
         printf("The decimal number: %d to binary is %s \n", num, arr);
         printf("The binary number: %s has %d bits \n", arr, len);
         printf("decimal number: %d has %d bits, so it fits in data type FLOAT and INT \n", num, len);
