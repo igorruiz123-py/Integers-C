@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// NÚMEROS NATURAIS E INTEIROS
+// TIPO UNSIGNED INT (NATURAIS)
 
 /*
 A memória de qualquer computador é uma sequência de bytes. Cada byte
@@ -34,7 +34,7 @@ int main(){
     int size = sizeof(var);
 
     printf("value of var: %u \n", var);
-    printf("size of var: %d bytes \n", size); // Números naturais possuem 4 bytes de tamanho 
+    printf("size of var: %d bytes \n", size); // Um unsigned int geralmente ocupa 4 bytes em arquiteturas modernas
 
     printf("\n");
 
